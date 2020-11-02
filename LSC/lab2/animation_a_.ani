@@ -1,0 +1,14 @@
+; POV-Ray animation ini file
+Antialias=On
+Antialias_Threshold=0.3
+Antialias_Depth=3
+
+Input_File_Name=animation_a_.pov
+
+Initial_Frame=1
+Final_Frame=10
+Initial_Clock=0
+Final_Clock=1
+
+Cyclic_Animation=on
+Pause_when_Done=off
