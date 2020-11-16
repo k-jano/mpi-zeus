@@ -13,7 +13,7 @@ loadMPI() {
 }
 
 run() {
-  mpirun -np 2 ./lab4.py 3 5 10 12 0.05
+  mpirun -np 1 ./lab4.py 3 5 10 12 0.05
 }
 
 loadMPI &&

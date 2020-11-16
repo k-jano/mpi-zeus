@@ -16,11 +16,8 @@ l = int(sys.argv[4])
 eps_factor = float(sys.argv[5])
 
 eps = eps_factor * m * n
-
 next_iteration = True
-
 task_range = int((n / size))
-
 if rank == size-1:
     task_range = n - task_range*rank
 
