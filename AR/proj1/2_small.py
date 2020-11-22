@@ -5,11 +5,18 @@ import numpy as np
 STARS_COUNT = 1000
 
 stars = {
-    'mass': np.random.randint(low=-100, high=100, size=STARS_COUNT),
-    'x': np.random.randint(low=-100, high=100, size=STARS_COUNT),
-    'y': np.random.randint(low=-100, high=100, size=STARS_COUNT),
-    'z': np.random.randint(low=-100, high=100, size=STARS_COUNT)
+    'mass': [10, 12, 9, 25, 3, 30, 16, 11, 12],
+    'x': [10, 12, 40, -12, 1, 0, -24, 8, 100],
+    'y': [0, 12, 55, -2, -12, 53, 11, 2, 11],
+    'z': [45, -23, -19, -99, 24, 98, 10, 4, 2]
 }
+
+# stars = {
+#     'mass': [10, 12],
+#     'x': [10, 12],
+#     'y': [0, 12],
+#     'z': [45, -23]
+# }
 
 G = 6.67
 
